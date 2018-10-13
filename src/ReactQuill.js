@@ -6,8 +6,6 @@ export default class ReactQuill extends React.Component {
   constructor () {
     super()
 
-    console.log('constructor')
-
     this.container = React.createRef()
 
     this.getEditor = this.getEditor.bind(this)
